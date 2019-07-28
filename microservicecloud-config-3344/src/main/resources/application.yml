@@ -9,7 +9,7 @@ spring:
         git:
           uri: git@github.com:zhaizl2009/microservicecloud-config.git
           username: zhaizl2009@163.com
-          password: zhaizl0303
+          password: 
           skip-ssl-validation: true
 
       label: master
