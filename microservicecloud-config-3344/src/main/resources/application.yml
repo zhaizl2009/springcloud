@@ -1,0 +1,18 @@
+server:
+  port: 3344
+spring:
+  application:
+    name: microservicecloud-config
+  cloud:
+    config:
+      server:
+        git:
+          uri: git@github.com:zhaizl2009/microservicecloud-config.git
+          username: zhaizl2009@163.com
+          password: zhaizl0303
+          skip-ssl-validation: true
+
+      label: master
+management:
+  security:
+   enabled: false
